@@ -17,7 +17,10 @@ namespace TestingGithub.Pages.TestClasses
         {
             _context = context;
         }
+        public void ie()
+        {
 
+        }
         public IList<TestClass> TestClass { get;set; }
 
         public async Task OnGetAsync()
